@@ -1,0 +1,7 @@
+interface:
+  display_name: "电池文献结构化抽取"
+  short_description: "抽取电池论文结构化信息、性质链并生成 QA 数据"
+  default_prompt: "Use $battery-literature-extraction to process my battery-paper Markdown files and return structured results."
+policy:
+  allow_implicit_invocation: true
+
